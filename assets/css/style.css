@@ -1,31 +1,10 @@
 @import url('reset.css');
+@import url('header.css');
+@import url('main.css');
+@import url('aside.css');
 
 body {
     background: rgb(240, 238, 238);
 }
 
-.search-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10px;
-    border: 1px solid black;
-    background: white;
-}
 
-.youtube-logo {
-    width: 90px;
-}
-
-.left-menu {
-    display: flex;
-    gap: 20px;
-    border: 1px solid black;
-}
-
-
-.right-menu {
-    border: 1px solid black;
-    display: flex;
-    gap: 20px;
-}

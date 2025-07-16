@@ -1,0 +1,32 @@
+.video-content {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.video-content-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.video-title {
+    font-size: 1.2rem;
+}
+
+.channel-info-text {
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.view-count {
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+
+.description {
+    width: 600px;
+}

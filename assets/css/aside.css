@@ -1,0 +1,57 @@
+.thumbnail {
+    width: 160px;
+    height: 90px;
+}
+
+.thumbnail-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.video-thumb {
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-video-thumb {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.thumb-info {
+    font-size: 1.1rem;
+}
+
+.thumb-info-channel-name {
+    font-size: 0.8rem;
+}
+
+.thumb-info-channel-views {
+    font-size: .9;
+}
+
+
+
+.channel-info {
+    display: flex;
+    flex-direction: ro;
+    gap: 40px;
+}
+
+.buttons {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    gap: 10px;
+}
+
+
