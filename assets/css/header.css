@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px 10px;
-    border: 1px solid black;
     background: white;
 }
 
@@ -14,11 +13,9 @@
 .left-menu {
     display: flex;
     gap: 20px;
-    border: 1px solid black;
 }
 
 .right-menu {
-    border: 1px solid black;
     display: flex;
     gap: 20px;
 }

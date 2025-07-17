@@ -1,7 +1,6 @@
 .video-content {
-    border: 1px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -9,7 +8,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid black;
 }
 
 .video-title {
@@ -21,10 +19,23 @@
     font-size: .8rem;
 }
 
+.channel-info {
+    display: flex;
+    flex-direction: ro;
+    gap: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    gap: 10px;
+}
+
 .view-count {
     font-size: 1.1rem;
     font-weight: 600;
-    
 }
 
 .description {

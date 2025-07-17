@@ -1,7 +1,4 @@
-.thumbnail {
-    width: 160px;
-    height: 90px;
-}
+@import url('reset.css');
 
 .thumbnail-images {
     display: flex;
@@ -10,48 +7,42 @@
 }
 
 
-.video-thumb {
-    border: 1px solid black;
+.thumbnail-info {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+}
+
+.video-thumb {
+    display: flex;
     gap: 10px;
+    
 }
 
 .info-video-thumb {
     width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 13px;
 }
 
 .thumb-info {
-    font-size: 1.1rem;
+    font-size: 1.1rem;    
+}
+
+.thumbail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 10px;
+
 }
 
 .thumb-info-channel-name {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .thumb-info-channel-views {
-    font-size: .9;
-}
-
-
-
-.channel-info {
-    display: flex;
-    flex-direction: ro;
-    gap: 40px;
-}
-
-.buttons {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    gap: 10px;
+    font-size: .9rem;
 }
 
 
